@@ -14,7 +14,7 @@ referrerpolicy="no-referrer"/>
 
 
 
-  <section id="landing">
+  <section id="#landing">
     <nav>
    <div class="nav__container">
      <img class="logo" src="./assets/Library.svg"  alt="Library Logo"/>
@@ -28,6 +28,52 @@ referrerpolicy="no-referrer"/>
       href="#"class="nav__link" nav__link--primary>Books</a>
     </li>
   </ul>
+  <button class="btn__menu">
+    <i class="fas fa-bars"></i>
+  </button>
+
+<div class="menu__backdrop">
+  <button class="btn__menu btn__menu--close" onclick="openMenu()">
+      <i class="fas fa-bars"></i>
+     </button">
+    
+  <ul class="menu__links">
+    <li class="menu__list">
+<a href="#features" class="menu__link"onclick="openMenu()>Home</a>
+    </li>
+<a href="#features" class="menu__link"onclick="openMenu()">Books</a>
+    </li>
+<a href="#features" class="menu__link "onclick="openMenu()>Contacts</a>
+    </li>
+<a href="#features" class="menu__link "onclick="openMenu()>Contacts</a>
+
+     <button class="btn__menu" oneclick="openMenu()">
+      <i class="fas fa-bars"></i>
+     </button>
+     <div class="menu__backdrop">
+      <button class="btn__menu btn__menu--close" oneclick="closeMenu()">
+        <i class="fas fa-time"></i>
+      </button>
+      <ul class="menu__links"></ul>
+      <ul>
+        <li class="menu__list"><a href="#" class="menu__link" oneclick="closeMenu()">Home</a>
+        </li>
+        <li class="menu__list">
+          <a href="#features" class="menu__link"oneclick="close Menu()">Books</a>
+        </li>
+        <li class="menu__list"><a href="#" class="menu__link no-cursor"oneclick="closeMenu()">Contact</a>
+        </li>
+      </ul>
+     </div>
+     </div>
+   </nav>
+   </section>
+
+
+
+
+
+  
      </div>
      </nav>
 </header>
@@ -53,7 +99,7 @@ referrerpolicy="no-referrer"/>
    </nav>
    </section>
 
-    <header>
+     
       <div class="header__container">
         <div class="header__description">
           <h1>Australia's most awarded library platform</h1>
