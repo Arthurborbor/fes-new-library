@@ -321,7 +321,11 @@ button:active{
 
 .btn:hover{
   background: color #5e35b1;
+}
 
+
+.container {
+padding: 56px 0;
 }
 
 .header__img--wrapper{
@@ -329,9 +333,6 @@ button:active{
   z-index: 2;
 }
 
-.container {
-padding: 56px 0;
-}
 
 .row{
 width: 100%;
@@ -394,8 +395,8 @@ z-index: 1;
 
 
 .highlight__img{
-   border: 2px solid #7342d6;
-   color: #692be644;
+   border: 2px solid #7342d65d;
+   color: #7342d6;
   width: 100px;
  height: 100px;
  display: flex;
