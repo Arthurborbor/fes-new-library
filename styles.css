@@ -434,8 +434,12 @@ justify-content: space-between;
   flex:4 4 calc(25% - 20px);
   margin: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
 }
 
+.book__price {
+  margin-top: auto;
+}
 .book__img--wrapper {
   margin-bottom: 8px;
   border-radius: 4px;
